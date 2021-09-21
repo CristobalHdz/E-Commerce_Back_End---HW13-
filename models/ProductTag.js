@@ -12,16 +12,16 @@ ProductTag.init(
       allowNull: false
     },
     productId: {
-      TYPE: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       references: {
-        keu: 'id',
+        key: 'id',
         model: 'product'
       }
     },
     tag_id: {
       type: DataTypes.INTEGER,
       references: {
-        keu: 'id',
+        key: 'id',
         model: 'product'
       }
     }
